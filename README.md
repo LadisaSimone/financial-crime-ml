@@ -23,14 +23,18 @@ The goal of this repository is to **develop, experiment, and showcase AI-driven 
 - **Repository Path**: [`fraud-detection-transactions/`](./fraud-detection-transactions/)
 - **Status**: ✅ Completed (Version 1.0)
 
-## 📅 Future Projects (Planned)
-- **AML Risk Scoring Model** (Customer risk assessment using machine learning).
-- **Real-time Fraud Detection System** (Streaming anomaly detection for financial transactions).
-- **Graph-based Fraud Detection** (Using graph analytics for fraud pattern identification).
+### 2️⃣ AML Risk Scoring Model
+- **Description**: A machine learning model for assessing customer risk levels in financial transactions.
+- **Techniques Used**: 
+  - Supervised Learning: XGBoost, Gradient Boosting, LightGBM.
+  - Data Balancing: SMOTE with adjusted sampling strategies.
+  - Feature Engineering: Transaction behavior analysis, geographic risk scores, KYC completeness.
+- **Repository Path**: [`aml-risk-scoring/`](./aml-risk-scoring/)
+- **Status**: ✅ Completed (Version 1.0)
 
 ## 🛠️ Technologies Used
 - **Programming**: Python
-- **ML Libraries**: Scikit-learn, XGBoost, Imbalanced-learn
+- **ML Libraries**: Scikit-learn, XGBoost, LightGBM, Imbalanced-learn
 - **Data Processing**: Pandas, NumPy
 - **Version Control**: Git, GitHub
 - **Deployment**: TBD (Future versions may include API integrations)
@@ -43,3 +47,4 @@ This repository is primarily for learning, research, and demonstration. If you'r
 
 ---
 _This repository is a work in progress and will be updated frequently with new projects and improvements! 🚀_
+
